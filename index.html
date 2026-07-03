@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="혜진 중국어 - 개인 맞춤형 중국어 학습 공간. HSK, 비즈니스 회화, 1:1 과외 및 다양한 무료 학습 도구(플래시카드, 중국어 발음 발성기, 오늘의 퀴즈)를 제공합니다.">
+    <title>혜진 중국어 (Hyejin Chinese) - 개인 맞춤형 중국어 학습 공간</title>
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header id="main-header" class="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="logo-accent">慧珍</span> 중국어
+            </a>
+            <nav class="nav-menu" id="nav-menu">
+                <ul>
+                    <li><a href="#hero" class="nav-link active">홈</a></li>
+                    <li><a href="#about" class="nav-link">선생님 소개</a></li>
+                    <li><a href="#tools" class="nav-link">학습 도구</a></li>
+                    <li><a href="#courses" class="nav-link">수강 안내</a></li>
+                    <li><a href="#contact" class="nav-link">수강 문의</a></li>
+                </ul>
+            </nav>
+            <button class="nav-toggle" id="nav-toggle" aria-label="메뉴 열기">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-bg-glow"></div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class="badge">쉽고 재미있게 배우는 1:1 맞춤 중국어</span>
+                <h1 class="hero-title">중국어가 만만해지는<br><span class="highlight-text">특별한 학습 공간</span></h1>
+                <p class="hero-description">
+                    성조의 기초부터 HSK 합격, 비즈니스 실전 회화까지! 
+                    개개인의 학습 목적과 속도에 최적화된 맞춤형 커리큘럼으로 
+                    중국어 날개를 달아드립니다.
+                </p>
+                <div class="hero-actions">
+                    <a href="#tools" class="btn btn-primary" id="btn-hero-learn">학습 도구 체험하기</a>
+                    <a href="#contact" class="btn btn-secondary" id="btn-hero-contact">무료 시범수강 신청</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-card glass-card">
+                    <div class="card-header-accent"></div>
+                    <div class="card-body">
+                        <div class="chinese-character">學</div>
+                        <div class="pinyin">xué</div>
+                        <div class="meaning">배울 학: 배움은 즐거운 여정입니다</div>
+                        <div class="character-stats">
+                            <span><i class="fa-solid fa-pen-nib"></i> 16 획</span>
+                            <span><i class="fa-solid fa-volume-high"></i> [쉬에]</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-badge-floating glass-card">
+                    <i class="fa-solid fa-circle-check text-success"></i>
+                    <div>
+                        <strong>100%</strong>
+                        <span>개인 맞춤형 수업</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section scroll-spy">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">ABOUT ME</span>
+                <h2 class="section-title">혜진 선생님을 소개합니다</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="about-grid">
+                <div class="about-image-wrapper">
+                    <div class="image-border-deco"></div>
+                    <img src="assets/teacher_profile.png" alt="혜진 중국어 강사 프로필 사진" class="about-image" id="img-teacher-profile">
+                </div>
+                <div class="about-info">
+                    <h3 class="about-name">김혜진 (Hyejin Kim) <span class="teacher-role">중국어 전문 강사</span></h3>
+                    <p class="about-bio">
+                        안녕하세요! 수강생마다 다른 언어적 배경과 학습 성향을 분석하여, 가장 빠르고 확실하게 중국어 회화의 장벽을 넘어뜨리는 러닝 파트너 김혜진입니다. 지루한 암기 위주가 아닌, 현지에서 통하는 실전 언어를 즐겁게 익힐 수 있도록 안내합니다.
+                    </p>
+                    <ul class="about-credentials">
+                        <li>
+                            <div class="credential-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                            <div>
+                                <strong>북경대학교 중어중문학 학사 졸업</strong>
+                                <p>정통 표준 중국어 및 중국 현지 문화 분석 연구</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="credential-icon"><i class="fa-solid fa-certificate"></i></div>
+                            <div>
+                                <strong>중국어 교육 자격증 보유 & HSK 6급 만점</strong>
+                                <p>체계적이고 과학적인 교수법 제공</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="credential-icon"><i class="fa-solid fa-briefcase"></i></div>
+                            <div>
+                                <strong>대기업 출강 및 1:1 매칭 8년 경력</strong>
+                                <p>비즈니스 실무 회화 및 면접 스피치 특화 강사</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Learning Tools Section -->
+    <section id="tools" class="tools-section scroll-spy">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">STUDY HUB</span>
+                <h2 class="section-title">인터랙티브 중국어 학습 도구</h2>
+                <p class="section-description">로그인 없이 언제든 자유롭게 학습할 수 있는 혜진 중국어만의 맞춤형 셀프 스터디 엔진입니다.</p>
+                <div class="section-divider"></div>
+            </div>
+
+            <!-- Tab Navigation for Tools -->
+            <div class="tools-tab-nav">
+                <button class="tab-btn active" data-tab="tts-reader" id="tab-btn-tts">
+                    <i class="fa-solid fa-volume-high"></i> 발음 및 성조 연습
+                </button>
+                <button class="tab-btn" data-tab="flashcards" id="tab-btn-flashcards">
+                    <i class="fa-solid fa-clone"></i> 단어 플래시카드
+                </button>
+                <button class="tab-btn" data-tab="quiz" id="tab-btn-quiz">
+                    <i class="fa-solid fa-circle-question"></i> 오늘의 미니 퀴즈
+                </button>
+            </div>
+
+            <!-- Tab Content 1: Pinyin TTS Reader -->
+            <div class="tab-content active" id="tts-reader">
+                <div class="tool-grid">
+                    <div class="tool-controls glass-card">
+                        <h3><i class="fa-solid fa-keyboard text-primary"></i> 중국어 텍스트 입력기</h3>
+                        <p class="tool-desc">듣고 싶은 중국어 문장이나 단어를 입력해 주세요. 표준 북경어 성조와 음성 발음을 들려드립니다.</p>
+                        <div class="input-group">
+                            <textarea id="tts-input" placeholder="이곳에 중국어를 입력해 보세요. (예: 祝你今天一天过得愉快！)" rows="4">你好，很高兴认识你！祝你今天学习愉快。</textarea>
+                        </div>
+                        <div class="tts-settings">
+                            <div class="setting-item">
+                                <label for="tts-speed">발음 속도: <span id="speed-val">1.0</span>x</label>
+                                <input type="range" id="tts-speed" min="0.5" max="1.5" step="0.1" value="1.0">
+                            </div>
+                            <div class="setting-item">
+                                <label for="tts-voice">발음 목소리</label>
+                                <select id="tts-voice">
+                                    <option value="default">기본 목소리 (Chinese Mandarin)</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="tool-actions">
+                            <button id="btn-tts-speak" class="btn btn-primary btn-full">
+                                <i class="fa-solid fa-play"></i> 표준 발음 듣기
+                            </button>
+                            <button id="btn-tts-clear" class="btn btn-secondary">초기화</button>
+                        </div>
+                    </div>
+                    <div class="tool-preview glass-card">
+                        <h3><i class="fa-solid fa-wand-magic-sparkles text-accent"></i> 발음 코칭 팁</h3>
+                        <div class="coaching-card">
+                            <div class="tip-section">
+                                <div class="tip-title">성조 발음의 꿀팁 <span class="badge badge-accent">Tip</span></div>
+                                <ul class="tip-list">
+                                    <li><strong>1성( ¯ ):</strong> 솔 톤의 높은 소리를 길고 평평하게 냅니다.</li>
+                                    <li><strong>2성( ˊ ):</strong> 미에서 솔로 올라가듯 놀라 묻는 소리로 냅니다.</li>
+                                    <li><strong>3성( ˇ ):</strong> 가장 낮은 음역으로 뚝 떨어뜨렸다가 가볍게 올립니다.</li>
+                                    <li><strong>4성( ˋ ):</strong> 위에서 아래로 단호하게 내리꽂듯 뱉어냅니다.</li>
+                                </ul>
+                            </div>
+                            <div class="audio-wave-container" id="audio-wave">
+                                <div class="wave-bar"></div>
+                                <div class="wave-bar"></div>
+                                <div class="wave-bar"></div>
+                                <div class="wave-bar"></div>
+                                <div class="wave-bar"></div>
+                                <div class="wave-bar"></div>
+                                <span class="wave-status-text">음성을 재생하면 파동이 활성화됩니다</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tab Content 2: Flashcards -->
+            <div class="tab-content" id="flashcards">
+                <div class="flashcards-wrapper">
+                    <div class="category-selectors">
+                        <button class="cat-btn active" data-category="hsk1" id="btn-cat-hsk1">HSK 1급 필수</button>
+                        <button class="cat-btn" data-category="hsk2" id="btn-cat-hsk2">HSK 2급 일상</button>
+                        <button class="cat-btn" data-category="travel" id="btn-cat-travel">실전 여행 회화</button>
+                    </div>
+                    
+                    <div class="flashcard-container">
+                        <!-- Flashcard Element -->
+                        <div class="flashcard" id="main-flashcard">
+                            <div class="card-face card-front">
+                                <div class="card-index"><span id="card-current">1</span> / <span id="card-total">10</span></div>
+                                <div class="card-character" id="card-char">学习</div>
+                                <div class="card-instruction">클릭하여 단어 뜻 확인</div>
+                            </div>
+                            <div class="card-face card-back">
+                                <div class="card-index"><span id="card-back-current">1</span> / <span id="card-total-back">10</span></div>
+                                <div class="card-pinyin" id="card-pinyin">xuéxí</div>
+                                <div class="card-meaning" id="card-meaning">공부하다, 배우다</div>
+                                <div class="card-example" id="card-example">
+                                    <span class="ex-ch" id="card-ex-ch">我们在 school 学习汉语。</span>
+                                    <span class="ex-py" id="card-ex-py">Wǒmen zài xuéxiào xuéxí Hànyǔ.</span>
+                                    <span class="ex-kr" id="card-ex-kr">우리는 학교에서 중국어를 배운다.</span>
+                                </div>
+                                <button class="btn-card-tts" id="btn-card-speak" title="발음 듣기">
+                                    <i class="fa-solid fa-volume-high"></i> 발음 듣기
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flashcard-nav">
+                        <button class="btn-circle" id="btn-card-prev" aria-label="이전 단어"><i class="fa-solid fa-chevron-left"></i></button>
+                        <button class="btn btn-secondary" id="btn-card-flip"><i class="fa-solid fa-rotate"></i> 뒤집기</button>
+                        <button class="btn-circle" id="btn-card-next" aria-label="다음 단어"><i class="fa-solid fa-chevron-right"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tab Content 3: Quiz -->
+            <div class="tab-content" id="quiz">
+                <div class="quiz-wrapper glass-card">
+                    <div class="quiz-progress-bar">
+                        <div class="quiz-progress-fill" id="quiz-progress" style="width: 20%;"></div>
+                    </div>
+                    <div class="quiz-header">
+                        <span class="quiz-count">문제 <span id="quiz-current-num">1</span> / <span id="quiz-total-num">5</span></span>
+                        <span class="quiz-score">점수: <span id="quiz-score-val">0</span>점</span>
+                    </div>
+
+                    <div class="quiz-body">
+                        <h3 class="quiz-question" id="quiz-question-text">Q. 다음 뜻에 해당하는 중국어 단어는 무엇일까요?</h3>
+                        <div class="quiz-question-box">
+                            <span class="korean-word" id="quiz-target-word">감사합니다</span>
+                        </div>
+                        <div class="quiz-options" id="quiz-options-container">
+                            <!-- Options will be dynamically loaded -->
+                            <button class="quiz-opt" data-idx="0">A. 谢谢 (xièxie)</button>
+                            <button class="quiz-opt" data-idx="1">B. 再见 (zàijiàn)</button>
+                            <button class="quiz-opt" data-idx="2">C. 没관계 (méiguānxi)</button>
+                            <button class="quiz-opt" data-idx="3">D. 对不起 (duìbuqǐ)</button>
+                        </div>
+                    </div>
+
+                    <div class="quiz-footer">
+                        <div class="quiz-feedback hidden" id="quiz-feedback">
+                            <span class="feedback-icon"><i class="fa-solid fa-circle-check"></i></span>
+                            <span class="feedback-text" id="quiz-feedback-text">정답입니다! 谢谢는 '고맙습니다'라는 뜻입니다.</span>
+                        </div>
+                        <button class="btn btn-primary hidden" id="btn-quiz-next">다음 문제 <i class="fa-solid fa-arrow-right"></i></button>
+                        <div class="quiz-result-screen hidden" id="quiz-result-screen">
+                            <div class="result-icon"><i class="fa-solid fa-trophy"></i></div>
+                            <h2>퀴즈 완료!</h2>
+                            <p>최종 점수: <span id="quiz-final-score">0</span>점 / 100점</p>
+                            <p class="result-message" id="quiz-result-msg">훌륭합니다! 조금만 더 연습하면 마스터할 수 있어요.</p>
+                            <button class="btn btn-primary" id="btn-quiz-restart">다시 풀기</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Courses / Lessons Section -->
+    <section id="courses" class="courses-section scroll-spy">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">CURRICULUM</span>
+                <h2 class="section-title">수업 프로그램 안내</h2>
+                <p class="section-description">단순 지식 전달을 넘어, 입이 트이고 귀가 열리는 최적의 맞춤 학습 과정을 소개합니다.</p>
+                <div class="section-divider"></div>
+            </div>
+            
+            <div class="courses-grid">
+                <!-- Course 1 -->
+                <div class="course-card glass-card">
+                    <div class="course-icon"><i class="fa-solid fa-comments"></i></div>
+                    <h3>1:1 초중급 기초 회화</h3>
+                    <p class="course-desc">중국어가 처음이신 분들을 위한 핵심 과정! 성조와 발음 기초를 잡고, 일상 대화를 자연스럽게 구사하도록 훈련합니다.</p>
+                    <ul class="course-details">
+                        <li><i class="fa-solid fa-check"></i> 주 2회 / 회당 60분 수업</li>
+                        <li><i class="fa-solid fa-check"></i> 왕초보 맞춤형 스킬 전수</li>
+                        <li><i class="fa-solid fa-check"></i> 카카오톡 발음 1:1 밀착 피드백</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-secondary btn-full">수강 상담 신청</a>
+                </div>
+
+                <!-- Course 2 -->
+                <div class="course-card glass-card featured">
+                    <div class="featured-badge">인기</div>
+                    <div class="course-icon"><i class="fa-solid fa-bullseye"></i></div>
+                    <h3>HSK 목표 등급 속성 합격반</h3>
+                    <p class="course-desc">HSK 3급부터 6급까지 최단기 합격을 돕습니다. 빈출 문법 정리와 풍부한 모의고사 풀이 및 영역별 합격 스킬 집중 강화.</p>
+                    <ul class="course-details">
+                        <li><i class="fa-solid fa-check"></i> 모의고사 무료 제공 & 오답 분석</li>
+                        <li><i class="fa-solid fa-check"></i> 1:1 영역별 취약점 보완 코칭</li>
+                        <li><i class="fa-solid fa-check"></i> 작문 영역 밀착 첨삭 포함</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary btn-full">수강 상담 신청</a>
+                </div>
+
+                <!-- Course 3 -->
+                <div class="course-card glass-card">
+                    <div class="course-icon"><i class="fa-solid fa-briefcase"></i></div>
+                    <h3>실전 비즈니스 중국어</h3>
+                    <p class="course-desc">중국 거래처와의 비즈니스 미팅, 이메일 작성, 프레젠테이션, 전화 응대 등 실무 환경에 바로 사용 가능한 고급 표현을 배웁니다.</p>
+                    <ul class="course-details">
+                        <li><i class="fa-solid fa-check"></i> 업종별 실전 시나리오 학습</li>
+                        <li><i class="fa-solid fa-check"></i> 이메일 및 서식 무료 교정</li>
+                        <li><i class="fa-solid fa-check"></i> 비즈니스 문화 팁 교육</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-secondary btn-full">수강 상담 신청</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section scroll-spy">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">CONTACT</span>
+                <h2 class="section-title">수강 문의 및 상담 신청</h2>
+                <p class="section-description">원하시는 학습 목표와 현재 수준을 알려주시면, 최적의 커리큘럼 로드맵을 제안해 드립니다.</p>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-info-panel glass-card">
+                    <h3>연락 및 상담 안내</h3>
+                    <p>수업 중에는 전화를 받기 어려우니, 아래 문의 폼이나 카카오톡 채널로 메시지를 남겨주시면 즉시 답변해 드리겠습니다.</p>
+                    
+                    <ul class="contact-channels">
+                        <li>
+                            <i class="fa-solid fa-comment-dots kakao-color"></i>
+                            <div>
+                                <strong>카카오톡 ID</strong>
+                                <p>chicjin0311_chinese</p>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-envelope text-primary"></i>
+                            <div>
+                                <strong>이메일</strong>
+                                <p>chicjin0311@gmail.com</p>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-clock text-accent"></i>
+                            <div>
+                                <strong>상담 및 수업 시간</strong>
+                                <p>월 ~ 토: 09:00 - 22:00 (일요일 휴무)</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="contact-badge">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        <span>첫 등록 수강생 대상 무료 1회 시범수강 진행 중!</span>
+                    </div>
+                </div>
+
+                <div class="contact-form-panel glass-card">
+                    <form id="consultation-form" action="#" method="POST">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="user-name">성함 <span class="required">*</span></label>
+                                <input type="text" id="user-name" name="name" placeholder="홍길동" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="user-phone">연락처 <span class="required">*</span></label>
+                                <input type="tel" id="user-phone" name="phone" placeholder="010-1234-5678" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="user-email">이메일 주소</label>
+                            <input type="email" id="user-email" name="email" placeholder="example@email.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="select-course">관심 코스 <span class="required">*</span></label>
+                            <select id="select-course" name="course" required>
+                                <option value="" disabled selected>코스를 선택해 주세요</option>
+                                <option value="basic">1:1 초중급 기초 회화</option>
+                                <option value="hsk">HSK 목표 등급 속성 합격반</option>
+                                <option value="business">실전 비즈니스 중국어</option>
+                                <option value="etc">기타 (상담 후 결정)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="user-message">학습 목표 및 요구사항 <span class="required">*</span></label>
+                            <textarea id="user-message" name="message" rows="4" placeholder="예) 중국어 기초가 없는데 3개월 안에 HSK 3급을 따고 싶습니다. 가능한 일정과 수강료 문의드립니다." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full" id="btn-submit-form">
+                            상담 신청 보내기 <i class="fa-solid fa-paper-plane"></i>
+                        </button>
+                    </form>
+
+                    <!-- Success Message Popup (Hidden by default) -->
+                    <div class="form-success-alert hidden" id="form-success-alert">
+                        <div class="success-icon"><i class="fa-solid fa-circle-check"></i></div>
+                        <h3>상담 신청이 성공적으로 전송되었습니다!</h3>
+                        <p>혜진 선생님이 확인 후 빠른 시일 내에 연락드리겠습니다. 감사합니다.</p>
+                        <button class="btn btn-secondary" id="btn-alert-close">확인</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-info">
+                <span class="footer-logo"><span class="logo-accent">慧珍</span> 중국어</span>
+                <p>수강생의 자신감을 키우는 특별한 중국어 수업</p>
+            </div>
+            <div class="footer-socials">
+                <a href="#" aria-label="블로그"><i class="fa-brands fa-blogger"></i></a>
+                <a href="#" aria-label="인스타그램"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" aria-label="유튜브"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="footer-copyright">
+                <p>&copy; 2026 혜진 중국어 (Hyejin Chinese). All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- App Logic JS -->
+    <script src="app.js"></script>
+</body>
+</html>
